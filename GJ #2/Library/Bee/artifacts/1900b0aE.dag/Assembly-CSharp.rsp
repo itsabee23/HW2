@@ -357,6 +357,8 @@
 "Assets/Scripts/PlayerScripts/cameraController.cs"
 "Assets/Scripts/PlayerScripts/cameraMovement.cs"
 "Assets/Scripts/PlayerScripts/playerMovement.cs"
+"Assets/Scripts/titleScreen/changeScene.cs"
+"Assets/Scripts/titleScreen/quitGame.cs"
 -langversion:9.0
 
 /deterministic
