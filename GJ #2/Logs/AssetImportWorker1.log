@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16147 MB
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 16218 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-F:/ASU_Stuff/Fall 2022/CPI 211/Game Jam #2/HW2/GJ #2
+C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62658
-Successfully changed project path to: F:/ASU_Stuff/Fall 2022/CPI 211/Game Jam #2/HW2/GJ #2
-F:/ASU_Stuff/Fall 2022/CPI 211/Game Jam #2/HW2/GJ #2
+54710
+Successfully changed project path to: C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
+C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,281 +47,1686 @@ F:/ASU_Stuff/Fall 2022/CPI 211/Game Jam #2/HW2/GJ #2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 114.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 142.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path F:/ASU_Stuff/Fall 2022/CPI 211/Game Jam #2/HW2/GJ #2/Assets
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 Ti with Max-Q Design (ID=0x1f95)
-    Vendor:   NVIDIA
-    VRAM:     3962 MB
-    Driver:   30.0.15.1259
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8109 MB
+    Driver:   27.20.100.8854
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004246 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015936 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.705 seconds
+- Completed reload, in  1.031 seconds
 Domain Reload Profiling:
-	ReloadAssembly (706ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003797 seconds.
+Registered in 0.011139 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
+- Completed reload, in  1.618 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1000ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3842.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 5.158300 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.186500 ms MarkObjects: 4.412800 ms  DeleteObjects: 0.163500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006208 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1265ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (971ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3845.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 2.986900 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.105500 ms MarkObjects: 2.595100 ms  DeleteObjects: 0.061000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005602 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.487 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1488ms)
-		BeginReloadAssembly (165ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1169ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (530ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (351ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3848.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 3.387100 ms (FindLiveObjects: 0.366500 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.726300 ms  DeleteObjects: 0.089800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004094 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image F:\ASU_Stuff\Fall 2022\CPI 211\Game Jam #2\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1620ms)
+		BeginReloadAssembly (182ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1030ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1248ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (377ms)
+			SetupTypeCache (495ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (432ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (495ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (297ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.3 KB). Loaded Objects now: 3851.
-Memory consumption went from 116.3 MB to 116.2 MB.
-Total: 3.100800 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.102200 ms MarkObjects: 2.697700 ms  DeleteObjects: 0.081800 ms)
+Unloading 3385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3843.
+Memory consumption went from 116.4 MB to 116.3 MB.
+Total: 6.029200 ms (FindLiveObjects: 0.620000 ms CreateObjectMapping: 0.623000 ms MarkObjects: 4.546200 ms  DeleteObjects: 0.237700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 970870.517970 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_buildingI.fbx
+  artifactKey: Guid(2ece38aa74519314ebd3daf740069ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_buildingI.fbx using Guid(2ece38aa74519314ebd3daf740069ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46d0ede43ae21bf9457838a786acdf3') in 0.229412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/detail_umbrellaDetailed.fbx
+  artifactKey: Guid(d2630be4c63c44647a9c67db120eb31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/detail_umbrellaDetailed.fbx using Guid(d2630be4c63c44647a9c67db120eb31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174c90b8432d308abbba1d2b75042f89') in 0.236333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type06.fbx
+  artifactKey: Guid(1fbec04ac15cdac45bc556c5d68991e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type06.fbx using Guid(1fbec04ac15cdac45bc556c5d68991e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08182a8ad5987ebad0869eb0becb1419') in 0.251833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/large_buildingC.fbx
+  artifactKey: Guid(87c846e5b2f7d8848a47ceeb2af9582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/large_buildingC.fbx using Guid(87c846e5b2f7d8848a47ceeb2af9582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad7e46c4eff806d6f7b86d10d4d0256') in 0.208281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/City Roads/FBX format/road_intersectionPath.fbx
+  artifactKey: Guid(df8eb66e12cc8ed428ad2775a4a86ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_intersectionPath.fbx using Guid(df8eb66e12cc8ed428ad2775a4a86ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384eb6f3a2b1052e555c5e2b65b3dd3d') in 0.220277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/detail_awning.fbx
+  artifactKey: Guid(f5a6e6e69f59a1a4ab0e5a34fb6783da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/detail_awning.fbx using Guid(f5a6e6e69f59a1a4ab0e5a34fb6783da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6155db41a7ec77cb3146c3855807c9a7') in 0.211554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/City Suburbs/FBX format/path_short.fbx
+  artifactKey: Guid(679c92659b3e0fd4c8d4210faadda4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/path_short.fbx using Guid(679c92659b3e0fd4c8d4210faadda4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f2ca8269d7b737b96a5d0a8206eb56') in 0.143066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type02.fbx
+  artifactKey: Guid(1922d35f56894864aa53cffcf89dbd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type02.fbx using Guid(1922d35f56894864aa53cffcf89dbd4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f698477f68f1ebcbac2945a88c6261') in 0.218580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockLevel.fbx
+  artifactKey: Guid(dbeb3a7e08a58f7489d7987ebcc8502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockLevel.fbx using Guid(dbeb3a7e08a58f7489d7987ebcc8502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e54b8e1490c265a2613a8025bc09731') in 0.139749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLong.fbx
+  artifactKey: Guid(c15f28e60c150e141924036096e2dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLong.fbx using Guid(c15f28e60c150e141924036096e2dfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6023305d1e5d5c4f1800e265947bcad3') in 0.124890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/block.fbx
+  artifactKey: Guid(b8bab43c1f6316f4db94cde66e6b0b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/block.fbx using Guid(b8bab43c1f6316f4db94cde66e6b0b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ac35d9fae4d8dd682aced48d665a7a') in 0.131149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/ladderLong.fbx
+  artifactKey: Guid(839f5e4df82870545bec0d8398c6da5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/ladderLong.fbx using Guid(839f5e4df82870545bec0d8398c6da5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b838ed7b78b8aa95a2554778698692') in 0.150715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowRoundedLowLong.fbx
+  artifactKey: Guid(a4b7de67839cd91439bb431e865156dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowRoundedLowLong.fbx using Guid(a4b7de67839cd91439bb431e865156dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6ac1e7d577b6fecd0b80e2377cc1e4') in 0.142700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCurveLow.fbx
+  artifactKey: Guid(9060c01d76be2dc47bc67f0ac0db46b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCurveLow.fbx using Guid(9060c01d76be2dc47bc67f0ac0db46b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b34e9951fdfb5763050c7752c17be98') in 0.157551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Models/City Suburbs/FBX format/path_tilesShort.fbx
+  artifactKey: Guid(1513717468723e343bd1150fb2dd4e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/path_tilesShort.fbx using Guid(1513717468723e343bd1150fb2dd4e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f42fb582e973aaef87604c48d87c9d') in 0.145227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/ladder.fbx
+  artifactKey: Guid(6eaf0a9168022d344bba1ea592849b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/ladder.fbx using Guid(6eaf0a9168022d344bba1ea592849b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dbfbf7e27267c1afdb772aa947e54d') in 0.202917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/City Suburbs/FBX format/driveway_short.fbx
+  artifactKey: Guid(af1a0b6ff71765b4eb67d810011195ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/driveway_short.fbx using Guid(af1a0b6ff71765b4eb67d810011195ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc36bea9e0ee54d82e188f5ad2f08c55') in 0.203499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002460 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type16.fbx
+  artifactKey: Guid(33c428b974fe5d442afc8fbef4ca9593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type16.fbx using Guid(33c428b974fe5d442afc8fbef4ca9593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5366b457818a04b4f19e7c6d24aa5f') in 0.225390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/roof_overhang.fbx
+  artifactKey: Guid(b136968ea722db94e844564896d168b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/roof_overhang.fbx using Guid(b136968ea722db94e844564896d168b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f8c94caaac34344d76110a5400eff0') in 0.164275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_wideA.fbx
+  artifactKey: Guid(c8f1ed60e98ef9641a0e4fb377bd5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_wideA.fbx using Guid(c8f1ed60e98ef9641a0e4fb377bd5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af08d1cad8b932d336018711c357c610') in 0.152126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type14.fbx
+  artifactKey: Guid(f1dac0bac9c506447a79b90cfab3edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type14.fbx using Guid(f1dac0bac9c506447a79b90cfab3edb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7436ea93d56ff01c5513a977c3e5b69') in 0.223006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/crateItemStrong.fbx
+  artifactKey: Guid(6d4dc8f71faf6c64a9b9bffa303be0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/crateItemStrong.fbx using Guid(6d4dc8f71faf6c64a9b9bffa303be0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00349788a8bfcb3066bb53d8be0d9747') in 0.146644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/City Roads/FBX format/road_crossroad.fbx
+  artifactKey: Guid(cd1f7b41959583648a32cc3736e6f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_crossroad.fbx using Guid(cd1f7b41959583648a32cc3736e6f9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44930c6d8afbdb57938b3b6e00fc709e') in 0.273257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagonLow.fbx
+  artifactKey: Guid(1c536b56b694f9240af36eacf75f534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagonLow.fbx using Guid(1c536b56b694f9240af36eacf75f534b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20dece3df5b508ffb256fc0b366ac59') in 0.143677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockLong.fbx
+  artifactKey: Guid(e0811178ea8a2744c9d55c6f5e810c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockLong.fbx using Guid(e0811178ea8a2744c9d55c6f5e810c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a524376f971d1b9b467c783f166fd4') in 0.151785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/arrows.fbx
+  artifactKey: Guid(f0ed93b1066c24d499d2bdbe53e28d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/arrows.fbx using Guid(f0ed93b1066c24d499d2bdbe53e28d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cd0e0bb94f0a3076368306417b620f') in 0.148401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockCurveHalf.fbx
+  artifactKey: Guid(7e177d1586ca7d8458604432277fffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockCurveHalf.fbx using Guid(7e177d1586ca7d8458604432277fffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bcaf63f5d508de243324386e470beb') in 0.113622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Models/City Roads/FBX format/road_curvePavement.fbx
+  artifactKey: Guid(96f6dd4a0b35f674699a4f1cce294826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_curvePavement.fbx using Guid(96f6dd4a0b35f674699a4f1cce294826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464d7681fe764df66bf3b27978596aa7') in 0.260601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtRampHalf.fbx
+  artifactKey: Guid(dbba586261ca20f4e8a7e2425a15a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtRampHalf.fbx using Guid(dbba586261ca20f4e8a7e2425a15a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcfe2cb5beee586685b3de1bee76245') in 0.137590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/ladderBroken.fbx
+  artifactKey: Guid(ec16cd0f8bcba6e4e9d5280259dce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/ladderBroken.fbx using Guid(ec16cd0f8bcba6e4e9d5280259dce3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52bf20a2c6219340aefbd8e6a21b81e') in 0.138912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCliff.fbx
+  artifactKey: Guid(7b6004b1e1582474585746e52367c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCliff.fbx using Guid(7b6004b1e1582474585746e52367c935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a6d00659b6268ee6927977b40a82a9') in 0.301075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/City Suburbs/FBX format/path_long.fbx
+  artifactKey: Guid(3c353b7c4c2ba4440ac58fe3e8b7f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/path_long.fbx using Guid(3c353b7c4c2ba4440ac58fe3e8b7f050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d913498a006cce0d68f624c16e097bb') in 0.157961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Models/City Roads/FBX format/road_side.fbx
+  artifactKey: Guid(4fa5e0e378530d945a3d5a3b89068b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_side.fbx using Guid(4fa5e0e378530d945a3d5a3b89068b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f5e4c35a15ba57f5ac4c2d3cd233f') in 0.224534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type18.fbx
+  artifactKey: Guid(11df5a8026dbc424b9934968c5aa257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type18.fbx using Guid(11df5a8026dbc424b9934968c5aa257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40cc29bc79b44e46879b6d45909902d') in 0.186205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/rocks.fbx
+  artifactKey: Guid(4eb5628f69e2f6b4aa8e15c6a5d14e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/rocks.fbx using Guid(4eb5628f69e2f6b4aa8e15c6a5d14e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fd73805d7e610bcba48f1ee8cbc9c7') in 0.151849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockQuarter.fbx
+  artifactKey: Guid(2896807147aaf7b46a4136563db83f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockQuarter.fbx using Guid(2896807147aaf7b46a4136563db83f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a5e4430349920403386ff31eaa1228') in 0.235277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010378 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockCurve.fbx
+  artifactKey: Guid(29572c5cf1333774eb128bdf8ccf2dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockCurve.fbx using Guid(29572c5cf1333774eb128bdf8ccf2dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e473ae46599ee400d11e34b0db05df2f') in 0.225839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockEnd.fbx
+  artifactKey: Guid(4bf5da444c3f3dc4bb4381b30a26a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockEnd.fbx using Guid(4bf5da444c3f3dc4bb4381b30a26a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff589cfc34eebf40689b78b6d5f34d0') in 0.118852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type11.fbx
+  artifactKey: Guid(2ae1bf98041ced24dbc8cfc99f19bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type11.fbx using Guid(2ae1bf98041ced24dbc8cfc99f19bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc32a517393a1de23cefeb6a48ebc94') in 0.233192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type05.fbx
+  artifactKey: Guid(dcaa46b1467f928439279202d4c00dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type05.fbx using Guid(dcaa46b1467f928439279202d4c00dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d08dea5194709454cc8e04460c90b85') in 0.268830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockLarge.fbx
+  artifactKey: Guid(1dee89fe33d8ffd43810eb86f768357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockLarge.fbx using Guid(1dee89fe33d8ffd43810eb86f768357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326bf3865c55443bb61adb49b79351dc') in 0.182964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowLevel.fbx
+  artifactKey: Guid(86095c6cf7956da4698ad5021e043af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowLevel.fbx using Guid(86095c6cf7956da4698ad5021e043af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3fde8f92e7c6a5f8aa56012c5f43db') in 0.134902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Models/Assets/House-GoldMine-FBX/GoldMine.fbx
+  artifactKey: Guid(4a2be42e867c2e34ca1daee6779b6a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Assets/House-GoldMine-FBX/GoldMine.fbx using Guid(4a2be42e867c2e34ca1daee6779b6a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3138b6226370d446b5325bc5d856e609') in 0.253711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_buildingF.fbx
+  artifactKey: Guid(65b59b7c43706cb43b16c36329f4fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_buildingF.fbx using Guid(65b59b7c43706cb43b16c36329f4fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641b4036c21fd1d5bc3bad4ebf27b996') in 0.115964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Models/City Roads/FBX format/road_slantFlatHigh.fbx
+  artifactKey: Guid(ee3fa72f5a69bf440802779e189f843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_slantFlatHigh.fbx using Guid(ee3fa72f5a69bf440802779e189f843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8045a88fbbf0e9124764f006e6f28bd3') in 0.180710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/heart.fbx
+  artifactKey: Guid(b4f62c78f3d7a02498cf12b6981f03b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/heart.fbx using Guid(b4f62c78f3d7a02498cf12b6981f03b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e8ac74c83459407334226d09007e7a') in 0.110144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Models/City Roads/FBX format/light_squareDouble.fbx
+  artifactKey: Guid(db779acc66e34d64da07667fbce2a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/light_squareDouble.fbx using Guid(db779acc66e34d64da07667fbce2a903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c845371500be2dc47c13c0c1aaf667') in 0.132055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_010.obj
+  artifactKey: Guid(ce54e868e67457948b2991ef3e51b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_010.obj using Guid(ce54e868e67457948b2991ef3e51b60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe9047ef4e825e87116941e062f7e9') in 0.143692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_062.obj
+  artifactKey: Guid(a75746801a4ed1d458ed0ff959946db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_062.obj using Guid(a75746801a4ed1d458ed0ff959946db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81fe51b32a4077c5f536a42072938ed6') in 0.110730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_088.obj
+  artifactKey: Guid(1593aef4e6f38b94f9f931dd6c91f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_088.obj using Guid(1593aef4e6f38b94f9f931dd6c91f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b0b7e2e12210f4d19b04b35a15f99') in 0.127360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_012.obj
+  artifactKey: Guid(476cdff877be95c479b033b7edeab8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_012.obj using Guid(476cdff877be95c479b033b7edeab8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8c5c693a10b68f19ae8327809caa48') in 0.136915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_086.obj
+  artifactKey: Guid(277b7cdeb58856c4f8112568f933adab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_086.obj using Guid(277b7cdeb58856c4f8112568f933adab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca001af0e3d71ed1f12573306b0782fe') in 0.194791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_052.obj
+  artifactKey: Guid(ac6d41195133d1b48af0d74717c30419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_052.obj using Guid(ac6d41195133d1b48af0d74717c30419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e8d3d8cf99aaaeabfa44ce55890348') in 0.143320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_093.obj
+  artifactKey: Guid(2890f0e93dab82d49ae81d67abbed5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_093.obj using Guid(2890f0e93dab82d49ae81d67abbed5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7206bf786d78c6c0d91d5f70cc3afae7') in 0.119890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Models/City Roads/FBX format/road_intersectionBarrier.fbx
+  artifactKey: Guid(8523099e643618a47a996821e1415524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_intersectionBarrier.fbx using Guid(8523099e643618a47a996821e1415524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0367ec90fc91c67081ff8b3d75fd757') in 0.083168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_002.obj
+  artifactKey: Guid(2cfd21c0fb2c987458d9f3c733515bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_002.obj using Guid(2cfd21c0fb2c987458d9f3c733515bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199d4514a6472960ac384ac9ad485144') in 0.115574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_074.obj
+  artifactKey: Guid(1edf7399dad83e744b04d68e693083be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_074.obj using Guid(1edf7399dad83e744b04d68e693083be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5cf97345583cf0d26a4c01186996f6') in 0.128768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_099.obj
+  artifactKey: Guid(e5d2f8f47c3d5f345b7ac286a33ed74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_099.obj using Guid(e5d2f8f47c3d5f345b7ac286a33ed74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7677faa96b11e2097653598b882df146') in 0.139420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_058.obj
+  artifactKey: Guid(cb62c3bff55a0a446a558d6b683b5ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_058.obj using Guid(cb62c3bff55a0a446a558d6b683b5ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf11c46897e98a6b74703700afeb3d5') in 0.109370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_042.obj
+  artifactKey: Guid(2a05b60246e67d442b9186043b420737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_042.obj using Guid(2a05b60246e67d442b9186043b420737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968b2bfabb45e349649a0c6875f885c2') in 0.121940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_011.obj
+  artifactKey: Guid(6a229d5ee1338f244b7cab27614d9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_011.obj using Guid(6a229d5ee1338f244b7cab27614d9f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e089b0c37f2da62c35e507dc5b41f4') in 0.121422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_021.obj
+  artifactKey: Guid(fc281e5e2cca5c54b9a3584db8887f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_021.obj using Guid(fc281e5e2cca5c54b9a3584db8887f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de558f6dbf015fc33c37562199b72206') in 0.114893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001209 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_065.obj
+  artifactKey: Guid(58ee74978de99194e92f839bd1e85be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_065.obj using Guid(58ee74978de99194e92f839bd1e85be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f5a8ab1ee72704f02ba538ec606162') in 0.103216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_071.obj
+  artifactKey: Guid(318d35239d6689a4ea61b84b327366bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_071.obj using Guid(318d35239d6689a4ea61b84b327366bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48366e11d662d8744fda4b819f8124d') in 0.119417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_049.obj
+  artifactKey: Guid(89a6974d7d7bf744da15021c9a0db069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_049.obj using Guid(89a6974d7d7bf744da15021c9a0db069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d98b27dc114a836150537f8e86c506') in 0.114573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_032.obj
+  artifactKey: Guid(1ac1d3f58d2e03e48972e6beb2b3d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_032.obj using Guid(1ac1d3f58d2e03e48972e6beb2b3d3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f987d40edca4df1e7ec20ea08f4724') in 0.106482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/City Roads/FBX format/road_straightBarrierEnd.fbx
+  artifactKey: Guid(1186693a8c2d1ab44aef0840032806a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_straightBarrierEnd.fbx using Guid(1186693a8c2d1ab44aef0840032806a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082dfecd1de53d5dbddc4c1015dc1f65') in 0.088745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_045.obj
+  artifactKey: Guid(aaa30f3202e59f34e87472baccbf1797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_045.obj using Guid(aaa30f3202e59f34e87472baccbf1797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b79bc51256c234359fa62607c36e0c8') in 0.103003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_060.obj
+  artifactKey: Guid(4ad73bda83e6fd04bb58338103d48f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_060.obj using Guid(4ad73bda83e6fd04bb58338103d48f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a289add3cc5617f3ed4d64fa8d9119') in 0.106287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_005.obj
+  artifactKey: Guid(8c9d844181bfcad468b0c4f98d365544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_005.obj using Guid(8c9d844181bfcad468b0c4f98d365544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e96d8bef738ddf81fd4b0004b9e287') in 0.114213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_047.obj
+  artifactKey: Guid(7e034bbfd4086c2478fcc866e80ca868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_047.obj using Guid(7e034bbfd4086c2478fcc866e80ca868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d84758b91f4358a2db36759d3cc6cb9') in 0.124963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/small_buildingB.fbx
+  artifactKey: Guid(ec6336991bd7b7e4a986fcba13397e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/small_buildingB.fbx using Guid(ec6336991bd7b7e4a986fcba13397e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629780aa5ab3c964064d76aab3a634e8') in 0.161639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/City Roads/FBX format/road_curve.fbx
+  artifactKey: Guid(9e8e4c2f92efd644fbac2c3f8bb9db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_curve.fbx using Guid(9e8e4c2f92efd644fbac2c3f8bb9db9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f028ad03abcb3d5c11c7a8952f6010') in 0.180619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/City Roads/FBX format/road_crossroadPath.fbx
+  artifactKey: Guid(91a708fc2a6fba345a917f48a0691816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_crossroadPath.fbx using Guid(91a708fc2a6fba345a917f48a0691816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee7e0943d1789b4e57ab747d98e7e47') in 0.141185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowLarge.fbx
+  artifactKey: Guid(a7ac5b4648bc53342b79488991ebb488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowLarge.fbx using Guid(a7ac5b4648bc53342b79488991ebb488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddf0cb9d697ebdc37ccb85849e180c7') in 0.109293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_017.obj
+  artifactKey: Guid(2e2ead110cdd27b44a2495b3be21b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_017.obj using Guid(2e2ead110cdd27b44a2495b3be21b3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d57171e5a111e187d628884e7405eac') in 0.112246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/wall_windowC.fbx
+  artifactKey: Guid(3693a41f05557fb4b955341a82da5d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/wall_windowC.fbx using Guid(3693a41f05557fb4b955341a82da5d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b6ad4ba607b773ca64c70c56e86a46') in 0.139131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockRounded.fbx
+  artifactKey: Guid(79d6078f2c98380488097993daa1d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockRounded.fbx using Guid(79d6078f2c98380488097993daa1d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dcbf4f3772156df9ac5943c2ba22ba') in 0.124567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/City Roads/FBX format/road_slantBarrier.fbx
+  artifactKey: Guid(4589459ec31cd2c4a8c268fd40607480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_slantBarrier.fbx using Guid(4589459ec31cd2c4a8c268fd40607480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f467808d012f12554fa3e0628749e6a') in 0.092048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Models/City Roads/FBX format/road_slantHigh.fbx
+  artifactKey: Guid(7329a193025ae5247813c2920a31ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_slantHigh.fbx using Guid(7329a193025ae5247813c2920a31ddec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8fdf7f6fe23749a5abce04d3eddf89') in 0.197366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_050.obj
+  artifactKey: Guid(c61a289596d868c4b9595516fcb39561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_050.obj using Guid(c61a289596d868c4b9595516fcb39561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2602b33c79b1cc040242640cb4ed9fbc') in 0.098568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_075.obj
+  artifactKey: Guid(a829f4a620d66f14188511634f9d47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_075.obj using Guid(a829f4a620d66f14188511634f9d47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b47b21067103835dbd22faaf55c507e') in 0.091581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_089.obj
+  artifactKey: Guid(46603ec9254405f48a2909a1e2407e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_089.obj using Guid(46603ec9254405f48a2909a1e2407e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceed8c2cd5e6e8aae853084311bdabcb') in 0.131128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockCornerLarge.fbx
+  artifactKey: Guid(4f69c00aab1ceaf4c8be3220c41f7b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockCornerLarge.fbx using Guid(4f69c00aab1ceaf4c8be3220c41f7b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784bad8532141504cae5e9bf3e6055ea') in 0.126306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/City Roads/FBX format/road_bendBarrier.fbx
+  artifactKey: Guid(8d0ea9f30a44dc04b9a30faabf3463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_bendBarrier.fbx using Guid(8d0ea9f30a44dc04b9a30faabf3463ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d0c7f4e948c8452106c408b041e36') in 0.088678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_051.obj
+  artifactKey: Guid(467cb2035b108864bbba558974fa508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_051.obj using Guid(467cb2035b108864bbba558974fa508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010cd63eea30d8bb80a186f0f33da876') in 0.122187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/flowersLow.fbx
+  artifactKey: Guid(0674fd18cbf4c794ca66ca7542583343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/flowersLow.fbx using Guid(0674fd18cbf4c794ca66ca7542583343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8e54d619503697e0416a0ef4c6bbe4') in 0.123555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type10.fbx
+  artifactKey: Guid(a6c3599b672b9a24f8182cc932be9967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type10.fbx using Guid(a6c3599b672b9a24f8182cc932be9967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f409059b7f6ba8eece5a38e257635796') in 0.200379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/coinGold.fbx
+  artifactKey: Guid(5c13e0d3acf666944a4037da8aea2c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/coinGold.fbx using Guid(5c13e0d3acf666944a4037da8aea2c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25716c1059410df370a0a395464fb48') in 0.134745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/crateStrong.fbx
+  artifactKey: Guid(40701c4fb9d291b4a93318d76537c1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/crateStrong.fbx using Guid(40701c4fb9d291b4a93318d76537c1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea1adb593d4a4d3d200d59bad8bf4f') in 0.142869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_043.obj
+  artifactKey: Guid(c481edce8ad670d48a7b2ab106e92dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_043.obj using Guid(c481edce8ad670d48a7b2ab106e92dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b853cde929a010707770cc216667953') in 0.099328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_079.obj
+  artifactKey: Guid(a5bafcadc0977ff4197ddd22b7af5f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_079.obj using Guid(a5bafcadc0977ff4197ddd22b7af5f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592cfa925769ad23aef49ddb5a446714') in 0.125221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_019.obj
+  artifactKey: Guid(bd09a81afcd5fdb44a5acd3c9738b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_019.obj using Guid(bd09a81afcd5fdb44a5acd3c9738b324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996b7ff3d185a86a8102f485be1df458') in 0.107650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_003.obj
+  artifactKey: Guid(993a6232244eca04aaecb9e603e1bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_003.obj using Guid(993a6232244eca04aaecb9e603e1bc54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e937587b0c7f3f1348bf74bf839bb3') in 0.139516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_034.obj
+  artifactKey: Guid(94df9ada52364fc498c21840ee5082f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_034.obj using Guid(94df9ada52364fc498c21840ee5082f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5b585037ce31a47ce3c58da2893d71') in 0.105384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_096.obj
+  artifactKey: Guid(332d08c24d5500b4eb66a100fd98c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_096.obj using Guid(332d08c24d5500b4eb66a100fd98c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f5f1689d1d5d2610e6003ead505d8f') in 0.099618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/City Roads/FBX format/road_split.fbx
+  artifactKey: Guid(3fbfd6d65017ff34ea0796f6b3ad94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_split.fbx using Guid(3fbfd6d65017ff34ea0796f6b3ad94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba8a670407627e1547469d80ad4052f') in 0.161187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtRamp.fbx
+  artifactKey: Guid(405bda2c67d7a064dadde8464b3de3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtRamp.fbx using Guid(405bda2c67d7a064dadde8464b3de3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80673a9a9ad20e9aff53c2b2b18831e4') in 0.085923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/City Roads/FBX format/road_slantFlat.fbx
+  artifactKey: Guid(af229480fcf48854e945717c014a74a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_slantFlat.fbx using Guid(af229480fcf48854e945717c014a74a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db8545660e74d7dd6be17034d57e6e8') in 0.109131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLarge.fbx
+  artifactKey: Guid(4a510ecae62d3df4da457232dba9cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLarge.fbx using Guid(4a510ecae62d3df4da457232dba9cc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398b5df2100d8d9854e27fa4466cef4f') in 0.153435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_006.obj
+  artifactKey: Guid(3ac096468b66c74448f497bbf8639f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_006.obj using Guid(3ac096468b66c74448f497bbf8639f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31deeee0f86944021307f607c433dd20') in 0.130106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/sign.fbx
+  artifactKey: Guid(5c2e83c5248e71f448f13ae72a3fcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/sign.fbx using Guid(5c2e83c5248e71f448f13ae72a3fcb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6a1c80238ba83ba096c7e9dc38d6e9') in 0.148978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/City Roads/FBX format/road_curveIntersection.fbx
+  artifactKey: Guid(8e3f3ab82c357bb4b9745d79c2e3f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_curveIntersection.fbx using Guid(8e3f3ab82c357bb4b9745d79c2e3f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60dbfe42434c81ecab607a70fa15151') in 0.301682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCornerCurved.fbx
+  artifactKey: Guid(52665993946695943b09c8f984e03f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCornerCurved.fbx using Guid(52665993946695943b09c8f984e03f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3542adc1b64035e1ecbf4a105f5efd') in 0.103888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowHexagonLow.fbx
+  artifactKey: Guid(2824bffee62720c45b9f93e090b12f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowHexagonLow.fbx using Guid(2824bffee62720c45b9f93e090b12f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d527115c13e0d129549c7e68e38493') in 0.204310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_buildingN.fbx
+  artifactKey: Guid(c87016a20ddbc9c49b7d46978b9e62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_buildingN.fbx using Guid(c87016a20ddbc9c49b7d46978b9e62a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5da11c730680e2bde3c01a9abfd4b9') in 0.130053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/skyscraperC.fbx
+  artifactKey: Guid(f9e3c2cb0a6100b44897be8664642493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/skyscraperC.fbx using Guid(f9e3c2cb0a6100b44897be8664642493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe29f5628d27a6f4ece41e9818b3568') in 0.224404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockCliff.fbx
+  artifactKey: Guid(7f9addf5570c6994fa4fd26749fe4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockCliff.fbx using Guid(7f9addf5570c6994fa4fd26749fe4281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece3e68770d63a413421eb176e39aeb9') in 0.151509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/chest.fbx
+  artifactKey: Guid(aa77a09d8364b1d4caef359fe3c3990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/chest.fbx using Guid(aa77a09d8364b1d4caef359fe3c3990b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec83ff552c58669b9ca0f355249d353') in 0.240941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/skyscraperA.fbx
+  artifactKey: Guid(e74f5c8f94591164e80d001f936b08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/skyscraperA.fbx using Guid(e74f5c8f94591164e80d001f936b08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9e626ec41fc8916c58ab5d4d91a4fa') in 0.184620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/small_buildingD.fbx
+  artifactKey: Guid(28d4d95ffe1cb8e46bc8b7a5e251c6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/small_buildingD.fbx using Guid(28d4d95ffe1cb8e46bc8b7a5e251c6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af21fa15d35e99c5cd2d7bda24c25846') in 0.277396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_039.obj
+  artifactKey: Guid(fe1d2e668be9e854fa96ab0506cf84fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_039.obj using Guid(fe1d2e668be9e854fa96ab0506cf84fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf3955458619dc8f278b28c03a86f8e') in 0.134285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_090.obj
+  artifactKey: Guid(8778ce63abba3a84ab8019453e5eafa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_090.obj using Guid(8778ce63abba3a84ab8019453e5eafa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95e686fab037e60e1b65688375f5226') in 0.113410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/flowers.fbx
+  artifactKey: Guid(656e8659aaa16e84e85320b5d6ced9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/flowers.fbx using Guid(656e8659aaa16e84e85320b5d6ced9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86269bef7a5e4d8ca983ad57adc181f7') in 0.261701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLow.fbx
+  artifactKey: Guid(199828d0ae202df479a249ff9e96b3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockRoundedLow.fbx using Guid(199828d0ae202df479a249ff9e96b3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18110ba1468306c15fb09b3b525e31fc') in 0.153032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_037.obj
+  artifactKey: Guid(f69c6a9bbce19ba4d8deb5eb9f30f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_037.obj using Guid(f69c6a9bbce19ba4d8deb5eb9f30f890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343598cecff07be3ce16ebf972ace914') in 0.159640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_082.obj
+  artifactKey: Guid(1cc809360f97058428c0f1cf11b2089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_082.obj using Guid(1cc809360f97058428c0f1cf11b2089d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d5bf813fdc68fb2cb2f5e9eadc103b') in 0.109161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_044.obj
+  artifactKey: Guid(6ff796266482f6948b33ccd61695d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_044.obj using Guid(6ff796266482f6948b33ccd61695d6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6f27cac04ba21acdb32bd5c8f9f65d') in 0.139475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCorner.fbx
+  artifactKey: Guid(9bf09766aff05314d92ce09e29bb2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCorner.fbx using Guid(9bf09766aff05314d92ce09e29bb2dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d47c0db6f62ab94cc4114dd9e736f8') in 0.160942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/City Roads/FBX format/road_bridge.fbx
+  artifactKey: Guid(608ec49e0c95b644ba993dcd52cc397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_bridge.fbx using Guid(608ec49e0c95b644ba993dcd52cc397f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d1a5acc1adaecdb00725d3678c3316') in 0.152898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/tree.fbx
+  artifactKey: Guid(8678b73b7926f044a8e23e6e6de211b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/tree.fbx using Guid(8678b73b7926f044a8e23e6e6de211b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f39bedb5d2ff66f0f9f7843151142f') in 0.148697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/City Roads/FBX format/road_roundaboutBarrier.fbx
+  artifactKey: Guid(37eb34a5fb4cc8c4f9a76cd7847028f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_roundaboutBarrier.fbx using Guid(37eb34a5fb4cc8c4f9a76cd7847028f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c091f105c971deda5fd99b4577e8899b') in 0.104925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockHalf.fbx
+  artifactKey: Guid(ff43e3a0add280c4aae2c28ddbe1f3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockHalf.fbx using Guid(ff43e3a0add280c4aae2c28ddbe1f3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc52f233071e9ef80d8529f3565176eb') in 0.148344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_080.obj
+  artifactKey: Guid(52a7ca882fa189441a5ff8d9a21499ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_080.obj using Guid(52a7ca882fa189441a5ff8d9a21499ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d63fb765bf91705236f58bff05fcf3a') in 0.149032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_068.obj
+  artifactKey: Guid(46a7171ccb70dab449e3bcc9aa87870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_068.obj using Guid(46a7171ccb70dab449e3bcc9aa87870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921841d9c27aa0f1c5784acc9a07ff55') in 0.168902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/saw.fbx
+  artifactKey: Guid(987a0d498da20a045a4f02b35251650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/saw.fbx using Guid(987a0d498da20a045a4f02b35251650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad422dd92f367e0ff661c92ddba13a7') in 0.120423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/coinSilver.fbx
+  artifactKey: Guid(22afb3f18dd8c364ab4d39b5776ebdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/coinSilver.fbx using Guid(22afb3f18dd8c364ab4d39b5776ebdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc855b0824a06d582e0825a24e638d1') in 0.141061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagon.fbx
+  artifactKey: Guid(d0e6ab1e32e3bb64d9f022ceccf85305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagon.fbx using Guid(d0e6ab1e32e3bb64d9f022ceccf85305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a38952977cc5a020e02ce7861554cf6') in 0.148760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_001.obj
+  artifactKey: Guid(b3dbfb32bef8f1e4681b9ccd2775b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_001.obj using Guid(b3dbfb32bef8f1e4681b9ccd2775b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f92d1593927dd2c5c873e0ad2eae51') in 0.110731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_081.obj
+  artifactKey: Guid(3f1e464e464eca548a7b7de12a184801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_081.obj using Guid(3f1e464e464eca548a7b7de12a184801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b0a562a9383b359162e7debc6e977') in 0.096985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type12.fbx
+  artifactKey: Guid(5ceb5182ecd77174a93176c4e21c7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type12.fbx using Guid(5ceb5182ecd77174a93176c4e21c7132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974b193217ef1718b379b1c125f5af05') in 0.236112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/small_buildingC.fbx
+  artifactKey: Guid(703581c4e6ff46b42bab4e15e8bfc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/small_buildingC.fbx using Guid(703581c4e6ff46b42bab4e15e8bfc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86834a8f5ce158a31fc193eb1c709c') in 0.181805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_061.obj
+  artifactKey: Guid(1f2b5feb86197224ba2c0c8d77f73680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_061.obj using Guid(1f2b5feb86197224ba2c0c8d77f73680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f519e760f2047248524c175a01827ae8') in 0.106266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_087.obj
+  artifactKey: Guid(f1a06b65acfbb7b4595ae7f8c24afda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_087.obj using Guid(f1a06b65acfbb7b4595ae7f8c24afda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb20c9b952abed60fdb4c1882b01c77') in 0.136692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/crate.fbx
+  artifactKey: Guid(6dde8ef1c4c765f489b6d120881e7d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/crate.fbx using Guid(6dde8ef1c4c765f489b6d120881e7d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1238b6725f34ee4e1b1b63573e98c7') in 0.132565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/City Suburbs/FBX format/fence_short.fbx
+  artifactKey: Guid(0138a2a5133086c48b4d978efd054615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/fence_short.fbx using Guid(0138a2a5133086c48b4d978efd054615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07bdc78f639990d1e408290a66ad757') in 0.138316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/coinBronze.fbx
+  artifactKey: Guid(4fc68d50f91566e4eb1826f8706f42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/coinBronze.fbx using Guid(4fc68d50f91566e4eb1826f8706f42ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b7173d1fcd82865e8d78eeca5ff8d5') in 0.175475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/City Suburbs/FBX format/fence_small.fbx
+  artifactKey: Guid(9cf4309145ca6624d818e823a8fc175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/fence_small.fbx using Guid(9cf4309145ca6624d818e823a8fc175d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e06c5b0cdad78a5fe17d2e9f17e6a1') in 0.143061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/platform.fbx
+  artifactKey: Guid(9af9c123ecf481b42ad8ee5cacbcf998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/platform.fbx using Guid(9af9c123ecf481b42ad8ee5cacbcf998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f843ba7f5a2107ad59644500bc1c3f') in 0.146700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_057.obj
+  artifactKey: Guid(861b5e41e287e5a46b15dfcf3205830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_057.obj using Guid(861b5e41e287e5a46b15dfcf3205830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d006d9164ba0d86a066fd1fb2779e57') in 0.166507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/large_buildingG.fbx
+  artifactKey: Guid(69b405c2b6f0e814483b772d3ec5118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/large_buildingG.fbx using Guid(69b405c2b6f0e814483b772d3ec5118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f4634d811ffa308f158dbeab1fd291') in 0.156720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/City Roads/FBX format/tile_slant.fbx
+  artifactKey: Guid(04b454df9c5a4f147a6654f9e3c64eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/tile_slant.fbx using Guid(04b454df9c5a4f147a6654f9e3c64eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6777643d3391a50a02a504bb09986fe') in 0.081149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowHalf.fbx
+  artifactKey: Guid(b5540987a1993d74892ba47fe5b6d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowHalf.fbx using Guid(b5540987a1993d74892ba47fe5b6d065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4442d223b80b76c5051c6e68028446a7') in 0.142510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/skyscraperB.fbx
+  artifactKey: Guid(af7eb9fe1b88af74aae0b746ffbab358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/skyscraperB.fbx using Guid(af7eb9fe1b88af74aae0b746ffbab358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cccb16083a64d14f14f8e2eabdedbf') in 0.204859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/detail_umbrella.fbx
+  artifactKey: Guid(a51672577b21f5843b9f2f9c45a3998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/detail_umbrella.fbx using Guid(a51672577b21f5843b9f2f9c45a3998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c636aa9d18150b915cb18dafb98b143a') in 0.147324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type03.fbx
+  artifactKey: Guid(24d4d0d3562120f4fb92185f439709fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type03.fbx using Guid(24d4d0d3562120f4fb92185f439709fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4586ac55643e980c5f3f7558ba4b7474') in 0.167842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/fenceLow.fbx
+  artifactKey: Guid(c07b3535d7dacd141a7351a6ec5e1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/fenceLow.fbx using Guid(c07b3535d7dacd141a7351a6ec5e1f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e9f227bd4b0583adaec4f8cd1c2bba') in 0.131899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_buildingE.fbx
+  artifactKey: Guid(c88d0132f4f65cc449411fa7d3222754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_buildingE.fbx using Guid(c88d0132f4f65cc449411fa7d3222754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343c77104687359f3b4033aadd9755d1') in 0.121502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/hedge.fbx
+  artifactKey: Guid(1988091943ef4ba4e9e4fa2acdb87642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/hedge.fbx using Guid(1988091943ef4ba4e9e4fa2acdb87642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34bc1b2af02a17b18b92c016916421e') in 0.121108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/City Roads/FBX format/road_intersectionLine.fbx
+  artifactKey: Guid(c45de22c70262be438e7db73db5cb06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_intersectionLine.fbx using Guid(c45de22c70262be438e7db73db5cb06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a72f4541d2267af24498fe37abd743') in 0.164017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Models/City Roads/FBX format/construction_barrier.fbx
+  artifactKey: Guid(c8223ff283112104faec14dd63aa480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/construction_barrier.fbx using Guid(c8223ff283112104faec14dd63aa480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187787c6f7d6e0326d505b9fc6f8dad2') in 0.158099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/City Roads/FBX format/road_slantFlatCurve.fbx
+  artifactKey: Guid(cb3605f0d646d004db734cb9d3b74f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_slantFlatCurve.fbx using Guid(cb3605f0d646d004db734cb9d3b74f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d0a49f9d4e315f191e412a6a77247e') in 0.139598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/City Roads/FBX format/road_sideExitBarrier.fbx
+  artifactKey: Guid(7e3949c2c71a3d9458071328383a6432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_sideExitBarrier.fbx using Guid(7e3949c2c71a3d9458071328383a6432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7d2a26ace8bcc16196c57c501939d9') in 0.091685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/City Roads/FBX format/road_bendSidewalk.fbx
+  artifactKey: Guid(f43509502d7d0774aab5cfaf869081b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_bendSidewalk.fbx using Guid(f43509502d7d0774aab5cfaf869081b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425a91a50108fc054a4759ec0e3919c1') in 0.068589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSlopeHalf.fbx
+  artifactKey: Guid(5dba5d022e646cc439e24b95ea540a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSlopeHalf.fbx using Guid(5dba5d022e646cc439e24b95ea540a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db2e172d762c8449d429b2f94d8155a') in 0.086576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png
+  artifactKey: Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark@2x.png using Guid(39c95c5cb14167543b9aa5908c94bb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d7438bab97d7b289f2ae6cda8e4818') in 0.136157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png
+  artifactKey: Guid(ae9e7828f0813b04fbe3f839422b2289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-progress-light@2x.png using Guid(ae9e7828f0813b04fbe3f839422b2289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7741337f8ef403c37b35a10929f08f91') in 0.091520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png
+  artifactKey: Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light.png using Guid(c27f4e1f2b76b2f45b48df65c02ba338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f12b80b51117c1a6c59e704b6e618a') in 0.077754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png
+  artifactKey: Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-light@2x.png using Guid(8478a99d8fb61c94ba938c3034d449c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2224af0b8b62f6bbea523e873d4989c') in 0.074894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png
+  artifactKey: Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark@2x.png using Guid(a26232d4d188e4440897131ed223d505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca007e3944433d08bbbb534056fae7') in 0.076959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png
+  artifactKey: Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/collaborate-available-changes-dark.png using Guid(07ab2758fd6b77141ae34a703972f385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bcec0300abbd3d26bb826dfa4fcd25') in 0.056325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png
+  artifactKey: Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-dark.png using Guid(289215d22fcafb941b9e25f8609e25b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa84f6f249cc28d7a68e44c2e354e6e7') in 0.026929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png
+  artifactKey: Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-remote-light@2x.png using Guid(2c8a8b796d0907747a9518f9458b2259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5951a0e1568f8d1ae6be69eff05086e2') in 0.026068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/sign_hospital.fbx
+  artifactKey: Guid(74cbd4cd9e5c70848bd06c16b4c8830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/sign_hospital.fbx using Guid(74cbd4cd9e5c70848bd06c16b4c8830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e49a3266c888c715fe6955b861b021') in 0.171074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_100.obj
+  artifactKey: Guid(b594cfb2d1ce9de488d0ac5ecfbc33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_100.obj using Guid(b594cfb2d1ce9de488d0ac5ecfbc33f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b974c6199f26f6c519fe1614e2254e8d') in 0.145355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/treePineSnow.fbx
+  artifactKey: Guid(e72366cf7eb384f4aa87a492afa4ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/treePineSnow.fbx using Guid(e72366cf7eb384f4aa87a492afa4ec13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ea137e2c51875d886b4f27ec88f605') in 0.126936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-dark@2x.png
+  artifactKey: Guid(98d032c68be4a784ab77b461c5341fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-dark@2x.png using Guid(98d032c68be4a784ab77b461c5341fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68cdabb8aaf65e4b331e0ea211cce9f') in 0.054360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/PlasticWindow/StatusBar.uxml
+  artifactKey: Guid(872252c6da7ba3c4ba34ad38b39b4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/PlasticWindow/StatusBar.uxml using Guid(872252c6da7ba3c4ba34ad38b39b4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2817fedf40847ac9030dfcb1e4192724') in 0.064787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-dark.png
+  artifactKey: Guid(c2d8bb87691276f4d93f1b74330d1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-dark.png using Guid(c2d8bb87691276f4d93f1b74330d1d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0ceecc0d7de6abb65e85600ac36b01') in 0.063343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-light@2x.png
+  artifactKey: Guid(274868c191eceec47af7c288217e75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-warning-light@2x.png using Guid(274868c191eceec47af7c288217e75cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6433a76563e178bc474bf35bf68c4445') in 0.068003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png
+  artifactKey: Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png using Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b640aac6301388c3962ad9bb265bf83f') in 0.121828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesGroupHeader.uxml
+  artifactKey: Guid(19d5aba5e2682314190477298a0313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/ChangesGroupHeader.uxml using Guid(19d5aba5e2682314190477298a0313fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274a5e89789c7cda8383cfe0d606d294') in 0.044706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/UiHelpers/UXML/Offline.uxml
+  artifactKey: Guid(5f53bfe242dd84ea1975e05f5a30c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/UiHelpers/UXML/Offline.uxml using Guid(5f53bfe242dd84ea1975e05f5a30c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff314a8c5bb5b893602f96b109e6aec7') in 0.054965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/UiHelpers/UXML/LoggedOut.uxml
+  artifactKey: Guid(0e9515598d3bf405bb8311f6d4528e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/UiHelpers/UXML/LoggedOut.uxml using Guid(0e9515598d3bf405bb8311f6d4528e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acbe1d12d4b51e3dc5924fa4309ab44') in 0.051033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml
+  artifactKey: Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/BaseChangeListElement.uxml using Guid(bef3e204cca87f74199fb125d726b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69058584b1f0282162078c121f527107') in 0.055457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-info-dark.png
+  artifactKey: Guid(fa1ff86f20525894b9bd92f1b1909ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-info-dark.png using Guid(fa1ff86f20525894b9bd92f1b1909ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9fbc783d95d6073489184222f6f0ee') in 0.067395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
+  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfcd2278e65ff063fe47ce2eee3b5f1') in 0.083695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryTabPageView.uxml
+  artifactKey: Guid(fdeda3b2ca86b6542a303cbe4f00c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryTabPageView.uxml using Guid(fdeda3b2ca86b6542a303cbe4f00c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b0bed281f214efe3f80350bdf2dadb') in 0.044818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png
+  artifactKey: Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png using Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c9dd06898d0babbed3bdbcc38172f') in 0.102298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-error-dark.png
+  artifactKey: Guid(8f169193df3d51042a705fa81fc46e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/status-error-dark.png using Guid(8f169193df3d51042a705fa81fc46e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cafba2d9d65147f9d3e1202ab07316') in 0.081704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/roof_center.fbx
+  artifactKey: Guid(be591fc52be910b4ea64f271026133e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/roof_center.fbx using Guid(be591fc52be910b4ea64f271026133e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2bcfcada5eb2b7d25cf93792dcdf65') in 0.081383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/City Roads/FBX format/road_splitBarrier.fbx
+  artifactKey: Guid(e9088d38618ebbe41938a01292b017b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_splitBarrier.fbx using Guid(e9088d38618ebbe41938a01292b017b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9896bbe52b763b615feabc6504c908e1') in 0.100292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/City Roads/FBX format/road_endBarrier.fbx
+  artifactKey: Guid(882b1192b064b6942aa03e1eacdd3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_endBarrier.fbx using Guid(882b1192b064b6942aa03e1eacdd3989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e4e37332ac73fbd52dd96ee055a1d5') in 0.072122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png
+  artifactKey: Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/choose-mine-dark.png using Guid(a972d8b163b45d54b89085acf50327e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c0b3263d92f5f2a40f859dac78ba1b') in 0.095222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/City Roads/FBX format/road_curveIntersectionBarrier.fbx
+  artifactKey: Guid(a4ade18004913ca4785318eb9bbd9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_curveIntersectionBarrier.fbx using Guid(a4ade18004913ca4785318eb9bbd9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd2670685ea50c8b6750836ddd349bf') in 0.078671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/City Roads/FBX format/light_curved.fbx
+  artifactKey: Guid(adbc48483a2aa6049a1c3c931e61ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/light_curved.fbx using Guid(adbc48483a2aa6049a1c3c931e61ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76db17912cde15670faa35310259257') in 0.109425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/low_buildingC.fbx
+  artifactKey: Guid(93a9a177545af2247b0e8a12f5cc8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/low_buildingC.fbx using Guid(93a9a177545af2247b0e8a12f5cc8199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ff9224c9151e87b1a798a853e56e68') in 0.147944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/sign_billboard.fbx
+  artifactKey: Guid(f0d0b805e259eb84a9f765b8a25c119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/sign_billboard.fbx using Guid(f0d0b805e259eb84a9f765b8a25c119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d2b97a41e38313d863719ed674f5df') in 0.124414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/City Suburbs/FBX format/house_type19.fbx
+  artifactKey: Guid(4126263decc88574f9c9f04a226b14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Suburbs/FBX format/house_type19.fbx using Guid(4126263decc88574f9c9f04a226b14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9597ae7d48cce9c32e557a4396c02e') in 0.162842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/buttonRound.fbx
+  artifactKey: Guid(52de2f3b711154449b37702eae719574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/buttonRound.fbx using Guid(52de2f3b711154449b37702eae719574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636f422a7c69da007ca4a911e95502c1') in 0.208466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_030.obj
+  artifactKey: Guid(2448b162e5aeaf14196288da654c3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_030.obj using Guid(2448b162e5aeaf14196288da654c3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9978c9c57d18d426ae270d7bf6594e') in 0.134274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/flag.fbx
+  artifactKey: Guid(075ba6cdccf2d934c8dcbca1aeacd05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/flag.fbx using Guid(075ba6cdccf2d934c8dcbca1aeacd05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d088640af3c7621ee8ca6320513a4b') in 0.171614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/MainPageView.uxml
+  artifactKey: Guid(ff1bfb51c3ec34c4aaaeb29a0343f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/MainPageView.uxml using Guid(ff1bfb51c3ec34c4aaaeb29a0343f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d250ecd3f13da07ffd47e7c8632112') in 0.059213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/UXML/ProjectBindRedirectPopup.uxml
+  artifactKey: Guid(6d24c9b8f12524834ab8c048bcc93f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.services.core/Editor/Core/ProjectBindRedirect/UXML/ProjectBindRedirectPopup.uxml using Guid(6d24c9b8f12524834ab8c048bcc93f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a219f8fe5a286ab09d3edcc9b75fdd') in 0.053406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/TopBar.uxml
+  artifactKey: Guid(e7c7831864804ac44b0605bdd2e8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/TopBar.uxml using Guid(e7c7831864804ac44b0605bdd2e8e79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beeda1babf1e853561361298b1b4d1e') in 0.051736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryEntryComponent.uxml
+  artifactKey: Guid(210e50e15b80af044a15718d78f5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryEntryComponent.uxml using Guid(210e50e15b80af044a15718d78f5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b7ee8caceec259bb392e9476c110dc') in 0.051690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/main-window.uxml
+  artifactKey: Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/main-window.uxml using Guid(0fc258eba97959a4bbc9d04f35188e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3532ed38634ed3d9a7e993301141481') in 0.056961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/TeamEditionConfigurationWindow.uxml
+  artifactKey: Guid(26d3a583da6079145a52a8bef4beb6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/TeamEditionConfigurationWindow.uxml using Guid(26d3a583da6079145a52a8bef4beb6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafa4e989573f85cb773f44ef6b65461') in 0.052731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/ProgressControlsForDialogs.uxml
+  artifactKey: Guid(feccc3dff22272744a267246ae760a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/ProgressControlsForDialogs.uxml using Guid(feccc3dff22272744a267246ae760a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ebaad2f02535d5cf7d699beffbc50b') in 0.057514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/SSOSignUpPanel.uxml
+  artifactKey: Guid(6dac85d7b8e76424ab582326c2cb5531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/SSOSignUpPanel.uxml using Guid(6dac85d7b8e76424ab582326c2cb5531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c56b6f990907170d2ea6827f14cb511') in 0.046706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/StartPageView.uxml
+  artifactKey: Guid(b25da32608546214ca8e4abbc2025f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/StartPageView.uxml using Guid(b25da32608546214ca8e4abbc2025f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df55311d8da876766dcf9e9567342618') in 0.047367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/CreateOrganizationPanel.uxml
+  artifactKey: Guid(544ec465751093542a3bb5d42b6b5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/CreateOrganizationPanel.uxml using Guid(544ec465751093542a3bb5d42b6b5689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2931034886db9745922343efd922c3f') in 0.073736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_024.obj
+  artifactKey: Guid(2767e8161df6cca488c375201de72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_024.obj using Guid(2767e8161df6cca488c375201de72046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2753e745c6c5ec18c473a32cedb653') in 0.097021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_035.obj
+  artifactKey: Guid(cf06d76d9fbf09e408d1d1b0d82e47be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_035.obj using Guid(cf06d76d9fbf09e408d1d1b0d82e47be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4cdadb51d60c99ecbf2a07de788538') in 0.118711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/fenceLowCorner.fbx
+  artifactKey: Guid(ab3620b0b092b62478fe6e9a99f7cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/fenceLowCorner.fbx using Guid(ab3620b0b092b62478fe6e9a99f7cbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4d6bbfae4ce1c227f51bebe65f085c') in 0.150191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/City Roads/FBX format/road_square.fbx
+  artifactKey: Guid(e9d1e19200544c94b9d02a6c6f910d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_square.fbx using Guid(e9d1e19200544c94b9d02a6c6f910d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04a491c7bce9518dd777d02e24be8e6') in 0.163097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/wall_windowB.fbx
+  artifactKey: Guid(5e60b532b224da34494251d9a2da7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/wall_windowB.fbx using Guid(5e60b532b224da34494251d9a2da7a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff6a12b8a1efb1e9a4d6fadae95136e') in 0.143844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_097.obj
+  artifactKey: Guid(92a35704fc7dfec4dab05568d29f2d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_097.obj using Guid(92a35704fc7dfec4dab05568d29f2d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a297a0b1b5d9fbc6ba9c13467c8c9164') in 0.192213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/TabView.uxml
+  artifactKey: Guid(d0a8e201e79e1f441bdf295aef957220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Layouts/TabView.uxml using Guid(d0a8e201e79e1f441bdf295aef957220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c066207db5a902a97e5e03a89e0e41') in 0.048150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCornerLarge.fbx
+  artifactKey: Guid(95150ca41a67e5648bbf73094180d5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowCornerLarge.fbx using Guid(95150ca41a67e5648bbf73094180d5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a66dfabe53dc699266b45c1786596ea') in 0.131266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/City Roads/FBX format/road_straight.fbx
+  artifactKey: Guid(02247e77fd44481408e06c478aa53d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Roads/FBX format/road_straight.fbx using Guid(02247e77fd44481408e06c478aa53d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff95f1e51f8101b932215f5817d4f4c9') in 0.186730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowRoundedLow.fbx
+  artifactKey: Guid(c6af21931e2c24947849f1c8c2a82757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockSnowRoundedLow.fbx using Guid(c6af21931e2c24947849f1c8c2a82757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac40584f7f4ec2e1e2f577df03ac616') in 0.161329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_023.obj
+  artifactKey: Guid(5ba8628aae5c3a848b11e2179cc69d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_023.obj using Guid(5ba8628aae5c3a848b11e2179cc69d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8431302c8f621b5cfed56ced4320406') in 0.117166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/AlertBox.uxml
+  artifactKey: Guid(13d7e179675caff4293e8d5c7fb1dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/AlertBox.uxml using Guid(13d7e179675caff4293e8d5c7fb1dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb03477dc5509bdb9dace9d47a662b1d') in 0.040257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtHalf.fbx
+  artifactKey: Guid(8808d7204daa1f54992676e43843c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockDirtHalf.fbx using Guid(8808d7204daa1f54992676e43843c8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0807b5cc41e99767b27b881e5fdf325') in 0.092373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.286797 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png
+  artifactKey: Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconemptygravatar.png using Guid(9aebd705574f9e642aef1e5f59b3e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c98de4c12b8bf84d1f657e571546e46') in 0.107541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.888547 seconds.
+  path: Assets/Prefab/DialogueWindow.prefab
+  artifactKey: Guid(96e444a0d231e3f4ca96279bec281d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/DialogueWindow.prefab using Guid(96e444a0d231e3f4ca96279bec281d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b767dce8469cb25eaa7a2f1a5391d428') in 0.043237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefab/Player.prefab
+  artifactKey: Guid(d9e5d40f792e652428a3a97a5dda40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Player.prefab using Guid(d9e5d40f792e652428a3a97a5dda40fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd281d9d3dd6515136b466ec50e6b0371') in 0.063650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Prefab/Interact.prefab
+  artifactKey: Guid(46463aadf3ca0704a8476859693edc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Interact.prefab using Guid(46463aadf3ca0704a8476859693edc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440efde03ff0c0e7c528036e2946e3e2') in 0.032482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.465555 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_027.obj
+  artifactKey: Guid(72c833acd86968448b1d121964251106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_027.obj using Guid(72c833acd86968448b1d121964251106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c33be5dff9682a2b1f7e94cad4d3ac') in 0.189579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_028.obj
+  artifactKey: Guid(7cdd29a585394da4fa9bf48287bdcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/modularBuildings_028.obj using Guid(7cdd29a585394da4fa9bf48287bdcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c8349ca2b7fa44f4c58533c439b41b') in 0.140939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.080789 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat
+  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43ccd1e861b671f046528d7857ee50c') in 0.197403 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012032 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 10.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6949ms)
+		BeginReloadAssembly (1152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (53ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (438ms)
+		EndReloadAssembly (4890ms)
+			LoadAssemblies (616ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1686ms)
+			ReleaseScriptCaches (11ms)
+			RebuildScriptCaches (368ms)
+			SetupLoadedEditorAssemblies (1944ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (299ms)
+				ProcessInitializeOnLoadAttributes (1344ms)
+				ProcessInitializeOnLoadMethodAttributes (150ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (79.3 KB). Loaded Objects now: 3904.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 15.217000 ms (FindLiveObjects: 4.300900 ms CreateObjectMapping: 1.187900 ms MarkObjects: 8.692300 ms  DeleteObjects: 1.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3765ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (3351ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (579ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (2123ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (328ms)
+				ProcessInitializeOnLoadAttributes (1507ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 27.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3907.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 31.861600 ms (FindLiveObjects: 1.080700 ms CreateObjectMapping: 5.340500 ms MarkObjects: 25.189900 ms  DeleteObjects: 0.248100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014097 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.643 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4645ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (4254ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (828ms)
+			ReleaseScriptCaches (13ms)
+			RebuildScriptCaches (370ms)
+			SetupLoadedEditorAssemblies (2366ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (146ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (562ms)
+				ProcessInitializeOnLoadAttributes (1481ms)
+				ProcessInitializeOnLoadMethodAttributes (134ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.8 KB). Loaded Objects now: 3910.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 4.548500 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.258000 ms MarkObjects: 3.826400 ms  DeleteObjects: 0.113300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009325 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4017ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (3607ms)
+			LoadAssemblies (144ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (933ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (259ms)
+			SetupLoadedEditorAssemblies (1793ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (91ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (378ms)
+				ProcessInitializeOnLoadAttributes (1143ms)
+				ProcessInitializeOnLoadMethodAttributes (141ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.5 KB). Loaded Objects now: 3913.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 17.328000 ms (FindLiveObjects: 1.033500 ms CreateObjectMapping: 1.362000 ms MarkObjects: 14.684800 ms  DeleteObjects: 0.244800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5706.940861 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png
+  artifactKey: Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Base_Color.png using Guid(b900361e13e6eaa44963cb851faf3ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41b9bf45c02df40ff0f89cad497a9ac') in 0.129380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png
+  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowlyPoly/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27ca451a9e9fad820561038f172d124') in 0.080741 seconds 
