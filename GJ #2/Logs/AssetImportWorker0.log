@@ -15,7 +15,7 @@ C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58350
+58258
 Successfully changed project path to: C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 200.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 148.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009872 seconds.
+Registered in 0.010724 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  0.833 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (700ms)
-			LoadAssemblies (102ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (352ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (350ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (74ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016811 seconds.
+Registered in 0.009102 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.492 seconds
+- Completed reload, in  1.323 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1493ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1160ms)
-			LoadAssemblies (135ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
+			SetupTypeCache (332ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (515ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (476ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (140ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3845.
-Memory consumption went from 117.3 MB to 117.2 MB.
-Total: 3.502600 ms (FindLiveObjects: 0.372800 ms CreateObjectMapping: 0.242500 ms MarkObjects: 2.687100 ms  DeleteObjects: 0.199200 ms)
+Memory consumption went from 117.2 MB to 117.1 MB.
+Total: 3.635500 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.297100 ms MarkObjects: 2.846200 ms  DeleteObjects: 0.147200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,13 +160,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1006185.114681 seconds.
-  path: Assets/Models/City Skyscrapers/FBX format/detail_awning.mat
-  artifactKey: Guid(e6e07e14a676a4a43832aab2ee09ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/City Skyscrapers/FBX format/detail_awning.mat using Guid(e6e07e14a676a4a43832aab2ee09ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b3f2c116bbcf44b75b992542a83595') in 0.193620 seconds 
+  Time since last request: 1009577.555428 seconds.
+  path: Assets/Stone Fountain/fountain_LOD0.prefab
+  artifactKey: Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone Fountain/fountain_LOD0.prefab using Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17598b80ea34c179996df5d1f1555c99') in 0.564845 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.623701 seconds.
-  path: Assets/Models/Platformer Kit/Kenney Platform Kit
-  artifactKey: Guid(ce8fcd823d3add143814d21467f219b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Platformer Kit/Kenney Platform Kit using Guid(ce8fcd823d3add143814d21467f219b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836a3b3521dbe129fa5f6273c96d621a') in 0.010590 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Stone Fountain/Models/fountain_LOD1.fbx
+  artifactKey: Guid(572baa3f53b89eb429475e0a046dbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone Fountain/Models/fountain_LOD1.fbx using Guid(572baa3f53b89eb429475e0a046dbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2752a853f2f1b6b492a8b23544d3dcb8') in 0.145399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Stone Fountain/Textures/Fountain-Normal.png
+  artifactKey: Guid(222c7c1b699fe1248ba800ebc0e98507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone Fountain/Textures/Fountain-Normal.png using Guid(222c7c1b699fe1248ba800ebc0e98507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1a7e382c2bbf5a2608ce50ca0b46f7') in 0.222111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.366635 seconds.
+  path: Assets/Stone Fountain/fountain_LOD0.prefab
+  artifactKey: Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stone Fountain/fountain_LOD0.prefab using Guid(8142860b8f89a564faf152e3c8b743e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e25f48e9b7bdf0a32a270f848486741') in 0.082042 seconds 
