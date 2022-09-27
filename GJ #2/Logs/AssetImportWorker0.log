@@ -15,7 +15,7 @@ C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60273
+58350
 Successfully changed project path to: C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/jvish/OneDrive/Pictures/Documents/HW2/GJ #2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 165.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 200.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011377 seconds.
+Registered in 0.009872 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 143.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 104.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  0.956 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (147ms)
+	ReloadAssembly (956ms)
+		BeginReloadAssembly (105ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (755ms)
-			LoadAssemblies (144ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (124ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (352ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (143ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (73ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014338 seconds.
+Registered in 0.016811 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.506 seconds
+- Completed reload, in  1.492 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1507ms)
-		BeginReloadAssembly (156ms)
+	ReloadAssembly (1493ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1186ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (429ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (513ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (515ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3845.
-Memory consumption went from 117.2 MB to 117.1 MB.
-Total: 3.790600 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.249400 ms MarkObjects: 3.011100 ms  DeleteObjects: 0.182600 ms)
+Unloading 27 unused Assets / (111.4 KB). Loaded Objects now: 3845.
+Memory consumption went from 117.3 MB to 117.2 MB.
+Total: 3.502600 ms (FindLiveObjects: 0.372800 ms CreateObjectMapping: 0.242500 ms MarkObjects: 2.687100 ms  DeleteObjects: 0.199200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,88 +160,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 984832.133154 seconds.
-  path: Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagonLow.mat
-  artifactKey: Guid(a80bedaa168880149890ce14becb9f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/blockHexagonLow.mat using Guid(a80bedaa168880149890ce14becb9f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853fc2950638083393a71632a34dec16') in 0.202240 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010427 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\jvish\OneDrive\Pictures\Documents\HW2\GJ #2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.634 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6637ms)
-		BeginReloadAssembly (250ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (6163ms)
-			LoadAssemblies (198ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1862ms)
-			ReleaseScriptCaches (12ms)
-			RebuildScriptCaches (360ms)
-			SetupLoadedEditorAssemblies (2975ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (98ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (7ms)
-				BeforeProcessingInitializeOnLoad (681ms)
-				ProcessInitializeOnLoadAttributes (1875ms)
-				ProcessInitializeOnLoadMethodAttributes (253ms)
-				AfterProcessingInitializeOnLoad (55ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (53ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 19.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (79.2 KB). Loaded Objects now: 3888.
-Memory consumption went from 121.6 MB to 121.5 MB.
-Total: 24.998000 ms (FindLiveObjects: 3.287900 ms CreateObjectMapping: 4.358700 ms MarkObjects: 16.362000 ms  DeleteObjects: 0.981800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 1006185.114681 seconds.
+  path: Assets/Models/City Skyscrapers/FBX format/detail_awning.mat
+  artifactKey: Guid(e6e07e14a676a4a43832aab2ee09ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/City Skyscrapers/FBX format/detail_awning.mat using Guid(e6e07e14a676a4a43832aab2ee09ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b3f2c116bbcf44b75b992542a83595') in 0.193620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 384.482978 seconds.
-  path: Assets/Models/Platformer Kit/Kenney Platform Kit/mushrooms.mat
-  artifactKey: Guid(1a3304a1310c4c24c8a283bcc97a86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/mushrooms.mat using Guid(1a3304a1310c4c24c8a283bcc97a86b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028547cd24cbf2d86dd5a5ed160e2c6') in 0.177006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.686653 seconds.
-  path: Assets/Models/City Roads/FBX format/road_slantFlatCurve.mat
-  artifactKey: Guid(f016a6d0fa613684ca307559dc09d5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/City Roads/FBX format/road_slantFlatCurve.mat using Guid(f016a6d0fa613684ca307559dc09d5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fea1b76d04b0b3d30cc2f2d4a6bcf76') in 0.058550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 617.318771 seconds.
-  path: Assets/Models/City Suburbs/FBX format/house_type10.mat
-  artifactKey: Guid(38d30db91d0d40948b47218e6206f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/City Suburbs/FBX format/house_type10.mat using Guid(38d30db91d0d40948b47218e6206f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438c82b674d77ac89f6e2b838565ea0') in 0.035605 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 101.141604 seconds.
-  path: Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCorner 1.fbx
-  artifactKey: Guid(87625f5f6eddf0b42bbfebf71297c354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Platformer Kit/Kenney Platform Kit/fenceCorner 1.fbx using Guid(87625f5f6eddf0b42bbfebf71297c354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c484a2e300b72360872f3ec38a92add4') in 0.263324 seconds 
+  Time since last request: 10.623701 seconds.
+  path: Assets/Models/Platformer Kit/Kenney Platform Kit
+  artifactKey: Guid(ce8fcd823d3add143814d21467f219b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platformer Kit/Kenney Platform Kit using Guid(ce8fcd823d3add143814d21467f219b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836a3b3521dbe129fa5f6273c96d621a') in 0.010590 seconds 
