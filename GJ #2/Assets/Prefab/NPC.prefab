@@ -141,7 +141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1480155775838483228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7465bc7551a6014f8c4cd35367fea0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2803a3b767ce8f14dac6e23131fa76c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   npcWindow: {fileID: 0}
@@ -177,8 +177,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1480155775838483228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc838be13b5fe74fb2ea1d67e5311ca, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b41222f9ec701c468bd1b463288a61b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactText: {fileID: 0}
-  interact: Press 'E' to interact
+  interact: 
